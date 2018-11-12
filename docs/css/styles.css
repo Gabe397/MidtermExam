@@ -4,6 +4,59 @@
     margin-right: auto;
 }
 
+#top{
+    line-height: 135px;
+}
+
+
+
+
+/*Menu Stuff*/
+#menu{
+    text-align: right;
+}
+
+.displayInline{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/*Logo Stuff*/
+
+
+
+
+
+.clearMargin{
+    margin: 0px;
+}
+
+
+
+.bigSqr{
+    width: 545px;
+}
+
+.bigSqrPadding{
+    padding-left:24px;
+    padding-right: 24px;
+}
+
+.smallSqr{
+    width: 328px;
+}
+
+.smallSqrPadding{
+    padding-right: 19px;
+    padding-left: 19px;
+}
+
 .floatLeft{
     float:left;
 }
@@ -11,3 +64,8 @@
 .clearFloat{
     clear:both;
 }
+
+.top135Height{
+    height:135px;
+}
+
