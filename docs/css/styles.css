@@ -1,14 +1,16 @@
 #wrapper{
-    width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
 
-#top{
-    line-height: 135px;
+.totalWidth{
+    width: 960px;
 }
 
-
+#top{
+    line-height: 135px;
+    height: 135px;
+}
 
 
 /*Menu Stuff*/
@@ -27,17 +29,47 @@ a:hover{
     text-decoration: underline;
 }
 
-/*Logo Stuff*/
 
-
-
-
-
-.clearMargin{
-    margin: 0px;
+/*BannerStuff*/
+#banner{
+    background-image: url("../images/car.jpg");
+    background-size: contain;
+    height: 555px;
 }
 
 
+#bannerBlack{
+    width:480px;
+    background-color: rgb(0,0,0);opacity: 0.8;
+}
+
+#advText{
+    color: ghostwhite;
+    left:30px;
+    top: 130px;
+}
+
+#learnText{
+    color: blue;
+    left: 310px;
+    top: 150px;
+}
+
+
+.helvetica{
+    font-family: Helvetica-Normal;
+}
+
+.posRel{
+    position: relative;
+}
+
+.bannerHeight{
+    height: 555px;
+}
+.clearMargin{
+    margin: 0px;
+}
 
 .bigSqr{
     width: 545px;
@@ -65,7 +97,4 @@ a:hover{
     clear:both;
 }
 
-.top135Height{
-    height:135px;
-}
 
