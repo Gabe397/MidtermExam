@@ -2,13 +2,11 @@
     line-height: 135px;
 }
 
-
-/*Menu Stuff*/
 #menu{
     text-align: right;
 }
 
-/*BannerStuff*/
+
 #banner{
     background-image: url("../images/car.jpg");
     background-size: contain;
@@ -31,29 +29,46 @@
     top: 150px;
 }
 
-#imgPad{
-    width: 291px;
-    height: 191px;
-    border: solid black;
-
-}
 
 #contentText{
     line-height: 18px;
-    font-size: 16px;
 }
+
+#sideText {
+    line-height: 13px;
+}
+
 
 #contentPad{
-    padding-left: 23px;
-    padding-right: 23px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-#sidebar{
+#table{
+    left:210px;
+}
 
+
+#separator{
+    height: 200px;
+}
+
+
+
+#imgPad{
+    height: 286px;
+    padding-top: 17px;
+    padding-left: 14px;
+    border: solid black;
 }
 
 
 /*Classes*/
+
+
+.borderBlack{
+    border: solid black;
+}
 
 .centralize{
     margin-right: auto;
@@ -61,7 +76,11 @@
 }
 
 .helvetica{
-    font-family: Helvetica-Normal;
+    font-family: AG_Helvetica, SansSerif;
+}
+
+.fontSize{
+    font-size: 13px;
 }
 
 .top135Height{
