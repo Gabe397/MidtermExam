@@ -8,7 +8,7 @@
 
 #banner{
     background-image: url("../images/car.jpg");
-    background-size: cover;
+    background-size: contain;
 }
 
 #bannerBlack{
@@ -19,13 +19,13 @@
 #advText{
     color: ghostwhite;
     left:30px;
-    top: 130px;
+    top: 140px;
 }
 
 #learnText{
     color: blue;
-    left: 310px;
-    top: 150px;
+    left: 330px;
+    top: 160px;
 }
 
 
