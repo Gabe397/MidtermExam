@@ -3,9 +3,6 @@
     margin-right: auto;
 }
 
-.totalWidth{
-    width: 960px;
-}
 
 #top{
     line-height: 135px;
@@ -18,25 +15,11 @@
     text-align: right;
 }
 
-.displayInline{
-    display: inline;
-}
-
-a{
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
-}
-
-
 /*BannerStuff*/
 #banner{
     background-image: url("../images/car.jpg");
     background-size: contain;
-    height: 555px;
 }
-
 
 #bannerBlack{
     width:480px;
@@ -56,6 +39,8 @@ a:hover{
 }
 
 
+
+/*Classes*/
 .helvetica{
     font-family: Helvetica-Normal;
 }
@@ -64,8 +49,19 @@ a:hover{
     position: relative;
 }
 
+.footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 75px;
+}
+
+.copyright{
+    top: 35px;
+}
+
 .bannerHeight{
-    height: 555px;
+    height: 554px;
 }
 .clearMargin{
     margin: 0px;
@@ -97,4 +93,17 @@ a:hover{
     clear:both;
 }
 
+.totalWidth{
+    width: 960px;
+}
 
+.displayInline{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
