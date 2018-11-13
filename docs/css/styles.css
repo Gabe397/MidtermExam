@@ -6,10 +6,9 @@
     text-align: right;
 }
 
-
 #banner{
     background-image: url("../images/car.jpg");
-    background-size: contain;
+    background-size: cover;
 }
 
 #bannerBlack{
@@ -64,8 +63,6 @@
 
 
 /*Classes*/
-
-
 .borderBlack{
     border: solid black;
 }
@@ -106,7 +103,7 @@
     height: 554px;
 }
 .clearMargin{
-    margin: 0px;
+    margin: 0;
 }
 
 .bigSqr{
@@ -121,7 +118,6 @@
 .smallSqr{
     width: 328px;
 }
-
 
 .floatLeft{
     float:left;
