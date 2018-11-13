@@ -31,6 +31,26 @@
     top: 150px;
 }
 
+#imgPad{
+    width: 291px;
+    height: 191px;
+    border: solid black;
+
+}
+
+#contentText{
+    line-height: 18px;
+    font-size: 16px;
+}
+
+#contentPad{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+#sidebar{
+
+}
 
 
 /*Classes*/
@@ -60,7 +80,7 @@
 }
 
 .copyright{
-    top: 35px;
+    top: 30px;
 }
 
 .bannerHeight{
@@ -71,7 +91,7 @@
 }
 
 .bigSqr{
-    width: 545px;
+    width: 583px;
 }
 
 .bigSqrPadding{
@@ -83,10 +103,6 @@
     width: 328px;
 }
 
-.smallSqrPadding{
-    padding-right: 19px;
-    padding-left: 19px;
-}
 
 .floatLeft{
     float:left;
